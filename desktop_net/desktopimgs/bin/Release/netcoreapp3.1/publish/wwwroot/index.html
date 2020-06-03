@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body style='margin:0; text-align: center;'>
+        <h1>y si el premio fuese remodelar el espacio de trabajo?</h1>
+        <div style='width: 1200px; max-width: 100%; margin: auto'>
+            <div id='slider-1'></div>
+        </div>
+        <h4>confort en nuestro espacio de trabajo (desktop, varios monitores, teclado, subwoofer, silla, etc)</h4>
+        <br>
+        <br>
+        
+        <script type='text/javascript' src='vanilla-slider.js'></script>
+        <script>
+            var sliderId = 'slider-1';
+            var sliderOptions = {
+                transitionTime: 200,
+                transitionDirectionX: 'random',
+                transitionDirectionY: 'random',
+                transitionZoom: 'random',
+                bullets: true,
+                bulletColor: 'blue',
+                bulletsHide: true,
+                arrows: true,
+                arrowsHide: true,
+                swipe: true,
+                auto: true,
+                autoTime: 1000,
+                images: [
+                    'img/1.png',
+                    'img/2.png',
+                    'img/3.png',
+                    'img/4.png',
+                    'img/5.png',
+                    'img/6.png',
+                    'img/7.png',
+                    'img/9.png',
+                    'img/10.png',
+                    'img/11.png',
+                    'img/12.png',
+                    'img/13.png',
+                    'img/14.png',
+					'img/15.png',
+					'img/1.jpg',
+					'img/2.jpg',
+					'img/3.jpg',
+					'img/4.jpg',
+					'img/5.jpg',
+					'img/6.jpg',
+					'img/7.jpg'
+                ]
+            };
+            slider = createSlider(sliderId, sliderOptions);
+        </script>
+    </body>
+</html>
